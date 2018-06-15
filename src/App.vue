@@ -3,13 +3,16 @@
     <router-view/>
     <!-- <tips></tips>   
     <loading></loading>   --> 
+    <services></services>
   </div>
 </template>
 <script>
+import services from '@/components/common/service'
 // import tips from '@/components/common/tips'
 // import loading from '@/components/common/loading'
 export default {
   name: 'App',
+  components:{services}
   // components:{tips,loading}
 }
 </script>

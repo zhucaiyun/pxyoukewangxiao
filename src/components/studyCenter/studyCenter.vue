@@ -119,7 +119,7 @@
 							</li>
 						</ul>
 						<div class="operation-btn">
-							<router-link :to="{name:'courseDetail',params:{id:'1'}}" class="course-detail">课程详情</router-link>
+							<router-link :to="{name:'startStudy',params:{id:'1'}}" class="course-detail">开始学习</router-link>
 							<router-link :to="{name:'settlement',params:{id:'1'}}" class="enrol">立即报名</router-link>
 						</div>
 					</div>

@@ -1,5 +1,5 @@
 <template>
-	<div class="course-detail"> 
+	<div class="start-study"> 
 		<div class="course-detail-info">
 			<ul class="course-list detail-list">
 				<li>
@@ -50,11 +50,16 @@
 						</div>
 					</div>
 					<div class="detail-right">
-						<p><span class="oldPrice">原价 ￥450</span><span class="orange-c">特价：￥</span><span class="nowPrice">1899</span></p>
-						<div class="per-price">
-							<p>单课时仅3.7元</p>
-							<p>限招300 | <span>剩余235</span></p>
-						</div>
+						<ul class="download-ul">
+							<li>
+								<div><img src="./img/resource.png" alt=""></div>
+								<button class="src-download">资料下载</button>
+							</li>
+							<li>
+								<div><img src="./img/final.png" alt=""></div>
+								<button class="app-download">直播客户端下载</button>
+							</li>
+						</ul>
 					</div>
 				</li>
 			</ul>
@@ -160,7 +165,7 @@
 		</div>
 		<!-- 右侧 扫码 报名等固定信息 -->
 		<ul class="course-campain">
-			<li><button class="enrol-btn">立即报名</button></li>
+			<!-- <li><button class="enrol-btn">立即报名</button></li> -->
 			<li class="second-li">
 				<h3><img src="./img/qq.png" alt="">服务QQ群</h3>
 				<p>获取最新学习资料，定期发布线下活动通知</p>

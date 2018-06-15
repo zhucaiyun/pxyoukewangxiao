@@ -12,6 +12,7 @@ import chooseCourse from '@/components/chooseCourse/chooseCourse'
 import courseDetail from '@/components/chooseCourse/courseDetail'
 import publicCourse from '@/components/publicCourse/publicCourse'
 import studyCenter from '@/components/studyCenter/studyCenter'
+import startStudy from '@/components/studyCenter/startStudy'
 import settlement from  '@/components/pay/settlement'
 Vue.use(Router)
 
@@ -55,6 +56,14 @@ export default new Router({
           component: studyCenter,
           meta: {
             title:'朴新优课-学习中心'
+          }
+        },
+        {
+          path:'/startStudy',
+          name:'startStudy',
+          component:startStudy,
+          meta:{
+            title:'朴新优课-开始学习'
           }
         },
         {

@@ -1,6 +1,6 @@
 <template>
   <!-- 提示弹层 -->
-  <div class="tips" v-show="tips.show">
+  <div class="service-div" v-show="tips.show">
 	  <h3>{{tips.title}}</h3> 
   </div>
 </template>
