@@ -1,5 +1,5 @@
 <template>
-	<div class="public-course">
+	<div class="public-course content">
 		<ul class="course-list">
 			<li>
 				<div class="course-img-div">

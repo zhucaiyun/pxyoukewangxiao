@@ -1,5 +1,5 @@
 <template>
-	<div class="choose-course">
+	<div class="choose-course content">
 		<div class="search-condition">
 			<ul class="condition-ul">
 				<li>

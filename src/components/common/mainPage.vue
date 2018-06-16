@@ -16,9 +16,7 @@
 			</div>
 			<img src="./img/search.png" alt="" @click="search" class="search">
 		</div>
-		<div class="content">
-			<router-view></router-view>
-		</div>
+		<router-view></router-view>
 		<vfooter></vfooter>
 	</div>
 </template>
@@ -50,7 +48,7 @@
 		margin: 0 auto;
 		height: 70px;
 		line-height: 70px;
-		// border-bottom: 1px solid #000;
+		border-bottom: 1px solid #e1e2e6;
 		overflow: hidden;
 		.logo {
 			float: left;

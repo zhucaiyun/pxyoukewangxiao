@@ -1,5 +1,5 @@
 <template>
-	<div class="study-center">
+	<div class="study-center content">
 		<div class="today-course">
 			<ul>
 				<li>

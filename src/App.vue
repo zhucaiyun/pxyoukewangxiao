@@ -1,25 +1,20 @@
 <template>
   <div id="app">
     <router-view/>
-    <!-- <tips></tips>   
-    <loading></loading>   --> 
     <services></services>
   </div>
 </template>
 <script>
 import services from '@/components/common/service'
-// import tips from '@/components/common/tips'
-// import loading from '@/components/common/loading'
 export default {
   name: 'App',
   components:{services}
-  // components:{tips,loading}
 }
 </script>
 <style>
   #app {
   	height: 100%;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'MicrosoftYaHei', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #666;
@@ -27,6 +22,9 @@ export default {
   body {
     margin: 0;
     height: 100%;
+  }
+  img {
+    border: 0 none;
   }
   ::-webkit-scrollbar {  /* 滚动条整体部分 */
      width:10px;
@@ -63,7 +61,6 @@ export default {
     height: 100%;
     width: 100%;
     background: #fff;
-    font-size: 'MicrosoftYaHei';
   }
   a {
     text-decoration: none;
@@ -99,5 +96,12 @@ export default {
   .active-nav {
     color: #4db2ff!important;
     border-bottom: 4px solid #4db2ff;
+    cursor: pointer!important;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
   }
 </style>

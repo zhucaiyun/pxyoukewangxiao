@@ -1,5 +1,5 @@
 <template>
-	<div class="start-study"> 
+	<div class="start-study content"> 
 		<div class="course-detail-info">
 			<ul class="course-list detail-list">
 				<li>

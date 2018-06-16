@@ -7,8 +7,7 @@
 			</div>
 			<ul>
 				<li><h3>帮助中心</h3></li>
-				<!--  @click="contactUs" -->
-				<li>服务协议</li>
+				<li  @click="contactUs">服务协议</li>
 			</ul>
 			<ul>
 				<li><h3>联系我们</h3></li>
@@ -17,8 +16,22 @@
 		</div>
 	</div>
 </template>
+<script>
+	export default {
+		name:'vfooter',
+		methods: {
+			contactUs:function() {
+				this.bus.$emit('isShow',{
+					isShow: true
+				})
+			}
+		}
+	}
+</script>
 <style lang="scss" scoped>
   .footer-div {
+  	width: 100%;
+  	min-width: 1120px;
   	background: #404F69;
   	height: 200px;
 		.footer-main {
